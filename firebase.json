@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "dist",
+    "target":"tachiflu-website",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

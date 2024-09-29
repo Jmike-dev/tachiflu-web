@@ -1,0 +1,25 @@
+
+{
+  "projects": {
+    "default": "tachiflu-73eaf"
+  },
+  "targets": {
+    "tachiflu-73eaf": {
+      "hosting": {
+        "tachiflu-website": [
+          "tachiflu-website"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "target": {
+    "tachiflu-73eaf": {
+      "hosting": {
+        "tachiflu-website": [
+          "tachiflu-website"
+        ]
+      }
+    }
+  }
+}
