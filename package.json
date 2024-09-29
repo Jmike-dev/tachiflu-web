@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
+    "deploy:tachiflu-web": "npm run build && firebase deploy --project tachiflu-73eaf --only hosting:tachiflu-website",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
